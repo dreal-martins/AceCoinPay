@@ -22,3 +22,20 @@
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 700px) {
+  .app_container {
+    padding: 10px;
+  }
+  .container {
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+  .card_input {
+    width: 100%;
+  }
+  .card_details {
+    width: 100%;
+  }
+}

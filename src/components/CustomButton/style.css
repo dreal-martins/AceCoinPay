@@ -16,3 +16,11 @@
   font-size: 1.2em;
   font-weight: 600;
 }
+
+@media screen and (max-width: 700px) {
+  .customButtonContainer {
+    margin-top: 18px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+  }
+}

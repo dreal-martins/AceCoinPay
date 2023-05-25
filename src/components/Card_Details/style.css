@@ -128,3 +128,35 @@
   height: 3vh;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 800px) {
+  .card_details_ticket_img_container img {
+    position: absolute;
+    bottom: 7%;
+    width: 100%;
+    height: 80%;
+    right: 1%;
+  }
+  .card_details_atm_card_container {
+    top: 10%;
+    right: 25%;
+    height: 40%;
+  }
+  .card_details_flip_card {
+    top: 9%;
+    right: 40%;
+  }
+  .card_details_total_container {
+    bottom: 15%;
+    width: 50%;
+  }
+  .card_details_total_icon {
+    font-size: 2.5em;
+  }
+  .card_details_product_details_container {
+    position: absolute;
+    top: 53%;
+    right: 30%;
+    width: 55%;
+  }
+}

@@ -23,3 +23,19 @@
 .card_input_header_right h3 {
   margin-left: 5px;
 }
+
+@media screen and (max-width: 700px) {
+  .card_input_header_left {
+    margin-top: 4.5em;
+    margin-left: 5px;
+  }
+  .card_input_header_left h2 {
+    font-size: 1em;
+  }
+  .card_input_header_left p {
+    font-size: 15px;
+  }
+  .card_input_header_right h3 {
+    font-size: 1em;
+  }
+}

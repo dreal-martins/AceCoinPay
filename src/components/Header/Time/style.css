@@ -6,3 +6,13 @@
   padding: 7px;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 1025px) {
+  .time_digit {
+    font-weight: 400;
+    color: white;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}

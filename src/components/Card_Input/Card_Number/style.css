@@ -30,3 +30,21 @@
   bottom: 0%;
   height: 9vh;
 }
+
+@media screen and (max-width: 700px) {
+  .card_number_input_container {
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  .card_number_input {
+    font-size: 1.2em;
+    padding-left: 50px;
+  }
+  .mastercardlogo {
+    height: 4vh;
+  }
+  .verified_img {
+    bottom: 3%;
+    height: 6vh;
+  }
+}

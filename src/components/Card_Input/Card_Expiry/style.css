@@ -44,3 +44,19 @@
   font-size: 1.2em;
   font-weight: 700;
 }
+
+@media screen and (max-width: 700px) {
+  .expiry_date_container {
+    margin-top: 5px;
+    margin-left: 8px;
+  }
+  .expiry_date_text {
+    width: 78%;
+  }
+  .expiry_date_container h2 {
+    font-size: 1em;
+  }
+  .expiry_date_container p {
+    font-size: 17px;
+  }
+}

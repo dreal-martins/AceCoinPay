@@ -42,3 +42,19 @@
   bottom: 23%;
   right: 2%;
 }
+
+@media screen and (max-width: 700px) {
+  .card_cvv_container {
+    margin-top: 8px;
+    margin-left: 8px;
+  }
+  .card_cvv_text h2 {
+    font-size: 1em;
+  }
+  .card_cvv_text p {
+    font-size: 16px;
+  }
+  .card_cvv_input {
+    padding-left: 10px;
+  }
+}
