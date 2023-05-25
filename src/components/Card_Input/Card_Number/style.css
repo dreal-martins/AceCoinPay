@@ -1,0 +1,32 @@
+.card_number_input_container {
+  position: relative;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.card_number_input {
+  width: 100%;
+  font-size: 1.2em;
+  padding: 15px;
+  border: 3px solid lightgrey;
+  padding-left: 60px;
+  border-radius: 10px;
+}
+.card_number_input::placeholder {
+  font-size: 16px;
+}
+.card_number_input:focus {
+  outline: none;
+}
+.mastercardlogo {
+  position: absolute;
+  top: 18%;
+  left: 1%;
+  height: 5vh;
+}
+.verified_img {
+  position: absolute;
+  right: 3%;
+  bottom: 0%;
+  height: 9vh;
+}

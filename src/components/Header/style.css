@@ -1,0 +1,24 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.logo_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 15vh;
+}
+
+.logo_container p {
+  font-weight: 900;
+  font-size: 1.5em;
+  color: navy;
+}
+.logo_container span {
+  font-weight: 400;
+  font-size: 1em;
+}

@@ -1,0 +1,28 @@
+.card_password_container {
+  margin-top: 25px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.card_password_text h2 {
+  font-size: 1.2em;
+}
+.card_password_text p {
+  color: gray;
+}
+.card_password_input {
+  width: 100%;
+  font-size: 1.2em;
+  padding: 15px;
+  border: 3px solid lightgrey;
+  padding-left: 15px;
+  border-radius: 10px;
+}
+.showPasswordIcon {
+  font-size: 1.3em;
+  position: absolute;
+  top: 26%;
+  right: 2%;
+}

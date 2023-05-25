@@ -1,0 +1,130 @@
+.card_details_container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.card_details_ticket_img_container {
+  height: 100%;
+  width: 100%;
+}
+
+.card_details_ticket_img_container img {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  height: 85%;
+  right: 15%;
+}
+.card_details_atm_card_container {
+  background-color: #fafcfe;
+  box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 1);
+  padding-top: 23px;
+  padding: 18px;
+  position: absolute;
+  top: 1%;
+  right: 27%;
+  border-radius: 10px;
+  width: 53%;
+  height: 50%;
+  z-index: 99;
+}
+.card_details_atm_card_subcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_details_atm_card_microchip {
+  width: 25%;
+}
+
+.card_details_atm_card_icon {
+  font-size: 2em;
+}
+
+.card_details_atm_card_second_container {
+  margin-top: 4em;
+}
+
+.card_details_atm_card_second_container h3 {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+.card_details_atm_card_second_container h2 {
+  margin-top: 3px;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+.card_details_atm_card_second_container h2 span {
+  font-weight: bold;
+}
+.card_details_atm_card_last_container {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_details_atm_card_last_container h2 {
+  font-size: 1.2em;
+}
+.card_details_atm_card_last_img {
+  width: 20%;
+}
+.card_details_product_details_container {
+  position: absolute;
+  top: 55%;
+  right: 30%;
+  width: 53%;
+}
+.card_details_product_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+.card_details_product_details h2 {
+  font-size: 1em;
+  color: rgb(136, 135, 135);
+}
+.card_details_product_details h3 {
+  font-size: 16px;
+}
+.card_details_total_container {
+  position: absolute;
+  bottom: 8%;
+  right: 30%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_details_total_subcontainer p {
+  color: rgb(136, 135, 135);
+}
+
+.card_details_total_amout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1em;
+}
+.card_details_total_subcontainer h2 {
+  font-size: 1.5em;
+}
+.card_details_total_subcontainer h3 {
+  font-size: 1em;
+  color: rgb(136, 135, 135);
+}
+.card_details_total_icon {
+  font-size: 3em;
+  color: darkgray;
+  transform: rotate(180deg);
+}
+.card_details_flip_card {
+  position: absolute;
+  top: -1%;
+  right: 43%;
+  background-color: blue;
+  width: 20%;
+  height: 3vh;
+  border-radius: 10px;
+}

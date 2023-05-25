@@ -1,0 +1,25 @@
+.card_input_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_input_header_left {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.card_input_header_left h2 {
+  font-size: 1.2em;
+  text-transform: capitalize;
+}
+.card_input_header_left p {
+  color: grey;
+}
+.card_input_header_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: royalblue;
+}
+.card_input_header_right h3 {
+  margin-left: 5px;
+}

@@ -1,0 +1,46 @@
+.expiry_date_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.expiry_date_text {
+  width: 100%;
+}
+.expiry_date_container h2 {
+  font-size: 1.2em;
+}
+.expiry_date_container p {
+  color: gray;
+}
+.expiry_date_input_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 79%;
+}
+
+.expiry_date_input {
+  width: 100%;
+  font-size: 1em;
+  padding: 10px;
+  border: 3px solid lightgrey;
+  padding-left: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.expiry_date_input::placeholder {
+  text-align: center;
+  font-size: 16px;
+}
+.expiry_date_input:focus {
+  outline: none;
+}
+
+.expiry_date_input_text {
+  margin: 10px;
+  font-size: 1.2em;
+  font-weight: 700;
+}

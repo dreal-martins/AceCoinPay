@@ -1,0 +1,24 @@
+.app_container {
+  padding: 40px;
+  background-color: #cacacd;
+}
+
+.container {
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.card_input {
+  width: 60%;
+}
+.card_details {
+  height: 80vh;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

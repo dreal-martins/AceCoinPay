@@ -1,0 +1,18 @@
+.customButtonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.customButton {
+  background-color: royalblue;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  padding: 15px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+}

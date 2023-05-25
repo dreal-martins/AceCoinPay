@@ -1,0 +1,8 @@
+.time_digit {
+  background-color: navy;
+  font-weight: 500;
+  color: white;
+  margin: 4px;
+  padding: 7px;
+  border-radius: 5px;
+}
